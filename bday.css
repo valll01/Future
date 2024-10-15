@@ -1,13 +1,16 @@
 /* General Styles */
-body {
+html, body {
     margin: 0;
     padding: 0;
     background-color: #fff0f6;
     display: flex;
+    max-width: 100%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 /* Card Container */
