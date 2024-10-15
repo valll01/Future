@@ -1,5 +1,5 @@
 /* General Styles */
-html, body {
+body {
     margin: 0;
     padding: 0;
     background-color: #fff0f6;
@@ -279,33 +279,36 @@ button:hover {
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
+@media (max-width: 767.98px) { /* Targeting Realme C25s screen width */
+   html,body{
+    
+   }
     .card-container {
         width: 90%; /* Full width on mobile */
         max-width: 360px; /* Maximum width */
-        margin-bottom: 100PX;
+        margin-bottom: 20px; /* Reduced bottom margin */
     }
-    
     .card {
-        height: 600px; /* Adjust height for mobile */
+        height: 550px; /* Adjust height for mobile */
     }
 
     .card-body {
-        padding: 20px; /* Adjust padding */
+        padding: 15px; /* Adjust padding */
     }
 
     .card-title {
-        font-size: 2rem; /* Adjust title size */
+        font-size: 1.8rem; /* Adjust title size */
     }
 
     .card-text {
-        font-size: 1.1rem; /* Adjust text size */
-        min-height: 60px; /* Adjust minimum height */
+        font-size: 1rem; /* Adjust text size */
+        min-height: 80px; /* Adjust minimum height */
     }
 
     .btn {
-        padding: 10px 20px; /* Adjust button padding */
-        font-size: 1rem; /* Button font size */
+        padding: 8px 15px; /* Adjust button padding */
+        font-size: 0.9rem; /* Button font size */
     }
+}
 
 }
